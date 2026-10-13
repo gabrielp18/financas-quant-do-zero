@@ -30,13 +30,6 @@ Este repositório guarda o código. Cada episódio traz um notebook executado, q
 do vídeo, de 11 a 14 linhas) e depois vai fundo: demonstração, tabela, gráfico, um exemplo de mesa, um exemplo do
 investidor e, quando cabe, a **replicação de um artigo clássico** com dados do Brasil.
 
-| Pedaço do episódio | Onde mora |
-|---|---|
-| 🎬 Reel de até 3 minutos | Instagram [@gabrielp.pires](https://instagram.com/gabrielp.piress) |
-| 🖼️ Carrossel de 10 lâminas | Instagram [@gabrielp.pires](https://instagram.com/gabrielp.piress) |
-| ✍️ Post com a leitura econômica | [gabrielppires.com](https://gabrielppires.com) |
-| 📓 Notebook executado + os dados | **aqui** 👇 |
-
 ## 📚 Os episódios
 
 | # | Episódio | A pergunta | O número que fica | 📜 Replica ou testa | Código |
