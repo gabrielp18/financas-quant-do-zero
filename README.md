@@ -24,10 +24,6 @@ Os notebooks da série do Instagram [@gabrielp.pires](https://instagram.com/gabr
 
 ---
 
-> **Duration. Convexidade. Correlação. Prêmio de prazo.**
-> Todo mundo no mercado fala essas palavras. Aqui cada uma vira um notebook que você roda, quebra, muda e roda de novo,
-> até a conta ficar óbvia.
-
 ## 🎬 O que é isto
 
 **Finanças Quantitativas do Zero** é uma série diária de vídeos curtos. Cada episódio pega **um** conceito do mercado,
@@ -37,16 +33,6 @@ sem mistério: se tem número no vídeo, tem código que chega nele.
 Este repositório guarda o código. Cada episódio traz um notebook executado, que começa pelo **código da tela** (o mesmo
 do vídeo, de 11 a 14 linhas) e depois vai fundo: demonstração, tabela, gráfico, um exemplo de mesa, um exemplo do
 investidor e, quando cabe, a **replicação de um artigo clássico** com dados do Brasil.
-
-```mermaid
-flowchart LR
-    A["📰 notícia da semana"] --> B["❓ duas perguntas"]
-    B --> C["🧮 equação numerada"]
-    C --> D["🐍 código da tela"]
-    D --> E["✅ assert em todo<br/>número falado"]
-    E --> F["🙈 o que o modelo<br/>não vê"]
-    F --> G["📓 notebook aqui"]
-```
 
 | Pedaço do episódio | Onde mora |
 |---|---|
