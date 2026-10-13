@@ -34,7 +34,7 @@ investidor e, quando cabe, a **replicação de um artigo clássico** com dados d
 
 | # | Episódio | A pergunta | O número que fica | 📜 Replica ou testa | Código |
 |:-:|---|---|---|---|:-:|
-| 06 | **Valor presente** | Por que um dólar hoje vale mais que um dólar daqui a 10 anos? | a 5 % ao ano, $100 daqui a 10 anos valem **$61,39** hoje; a 2 %, **$82,03**; a 10 %, só **$38,55** *(números de exemplo)* | conferência: $61,39 × 1,05¹⁰ = **$100,00** | *em breve* |
+| 01 | **Valor presente** | Por que um dólar hoje vale mais que um dólar daqui a 10 anos? | a 5 % ao ano, $100 daqui a 10 anos valem **$61,39** hoje; a 2 %, **$82,03**; a 10 %, só **$38,55** *(números de exemplo)* | conferência: $61,39 × 1,05¹⁰ = **$100,00** | *em breve* |
 
 ## ❓ Perguntas que sempre aparecem
 
