@@ -7,8 +7,6 @@
 
 # Finanças Quantitativas do Zero
 
-**Do cassino à curva de juros, uma linha de numpy por vez.**
-
 Os notebooks da série do Instagram [@gabrielp.pires](https://instagram.com/gabrielp.piress): cada vídeo vira código que roda, com dado de verdade.
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-1E56B8?logo=python&logoColor=white)](#-comece-em-30-segundos)
