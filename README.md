@@ -16,8 +16,6 @@ Os notebooks da série do Instagram [@gabrielp.pires](https://instagram.com/gabr
 [![Licença](https://img.shields.io/badge/licen%C3%A7a-MIT-55617A)](LICENSE)
 ![Não é recomendação](https://img.shields.io/badge/n%C3%A3o_%C3%A9-recomenda%C3%A7%C3%A3o_financeira-B42318)
 
-[O que é](#-o-que-é-isto) · [Comece](#-comece-em-30-segundos) · [Episódios](#-os-episódios) · [O mapa](#-o-mapa-da-série) · [Regras da casa](#-regras-da-casa) · [Dados](#-de-onde-vêm-os-dados) · [FAQ](#-perguntas-que-sempre-aparecem)
-
 </div>
 
 ---
