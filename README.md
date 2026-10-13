@@ -55,30 +55,11 @@ flowchart LR
 | ✍️ Post com a leitura econômica | [gabrielppires.com](https://gabrielppires.com) |
 | 📓 Notebook executado + os dados | **aqui** 👇 |
 
-## 🚀 Comece em 30 segundos
-
-```bash
-git clone https://github.com/gabrielp18/financas-quant-do-zero.git
-cd financas-quant-do-zero
-pip install -r requirements.txt
-jupyter lab
-```
-
-Abra qualquer `.ipynb` e rode de cima para baixo. Os dados de cada episódio já estão na pasta dele: nada de chave de API,
-nada de download escondido.
-
-**Sem instalar nada?** O primeiro episódio da lista abre direto no navegador:
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gabrielp18/financas-quant-do-zero/blob/main/temporada-2-juros-e-renda-fixa/04-duration/duration.ipynb)
-
-Nos episódios que leem arquivos de `dados*/`, rode isto numa célula antes (trocando a pasta pelo episódio que você quer):
-
-```python
-!git clone -q https://github.com/gabrielp18/financas-quant-do-zero.git
-%cd financas-quant-do-zero/temporada-3-carteira/02-diversificacao
-```
-
 ## 📚 Os episódios
 
+| # | Episódio | A pergunta | O número que fica | 📜 Replica ou testa | Código |
+|:-:|---|---|---|---|:-:|
+| 06 | **Valor presente** | Por que um dólar hoje vale mais que um dólar daqui a 10 anos? | a 5 % ao ano, $100 daqui a 10 anos valem **$61,39** hoje; a 2 %, **$82,03**; a 10 %, só **$38,55** *(números de exemplo)* | conferência: $61,39 × 1,05¹⁰ = **$100,00** | *em breve* |
 
 ## ❓ Perguntas que sempre aparecem
 
