@@ -27,21 +27,28 @@ faz **duas perguntas** sobre ele e responde com matemática na tela e código di
 sem mistério: se tem número no vídeo, tem código que chega nele.
 
 Este repositório guarda o código. Cada episódio traz um notebook executado, que começa pelo **código da tela** (o mesmo
-do vídeo, de 11 a 14 linhas) e depois vai fundo: demonstração, tabela, gráfico, um exemplo de mesa, um exemplo do
+do vídeo, de 12 a 16 linhas) e depois vai fundo: demonstração, tabela, gráfico, um exemplo de mesa, um exemplo do
 investidor e, quando cabe, a **replicação de um artigo clássico** com dados do Brasil.
 
 ## 📚 Os episódios
 
 | # | Episódio | A pergunta | O número que fica | 📜 Replica ou testa | Código |
 |:-:|---|---|---|---|:-:|
-| 01 | **Valor presente** | Por que um dólar hoje vale mais que um dólar daqui a 10 anos? | a 5 % ao ano, $100 daqui a 10 anos valem **$61,39** hoje; a 2 %, **$82,03**; a 10 %, só **$38,55** *(números de exemplo)* | conferência: $61,39 × 1,05¹⁰ = **$100,00** | [📓](https://github.com/gabrielp18/financas-quant-do-zero/blob/main/codigos/01_valor_presente/valor-presente.ipynb) [📄](https://github.com/gabrielp18/financas-quant-do-zero/blob/main/codigos/01_valor_presente/valor-presente_nota_tecnica.pdf) |
+| 01 | [**O passeio aleatório**](codigos/01_passeio_aleatorio) | Um gráfico de ações é só cara ou coroa? | com a vantagem do cassino (+2,7¢ por lance), a deriva só passa o ruído depois de **1.368** lances | Lo & MacKinlay (1988): o Ibovespa de 1995 a 2026 não rejeita o passeio aleatório | [📓](codigos/01_passeio_aleatorio/passeio-aleatorio.ipynb) [📄](codigos/01_passeio_aleatorio/passeio-aleatorio_nota_tecnica.pdf) |
+| 02 | [**A curva de sino**](codigos/02_curva_normal) | Por que passos aleatórios sempre formam o mesmo sino? | Ibovespa: **113** dias além de 3 desvios em 31 anos, onde o sino previa **21** | Fama (1965) e Mandelbrot (1963) com o Ibovespa; VaR de 99 % com backtest de Kupiec | [📓](codigos/02_curva_normal/curva-normal.ipynb) [📄](codigos/02_curva_normal/curva-normal_nota_tecnica.pdf) |
+| 03 | [**Retornos**](codigos/03_retornos_log) | Por que cair 50 % pede subir 100 %? | o Ibovespa "rende" **1,34 %** ao mês na média e **1,01 %** de verdade | Hudson & Gregoriou (2015) em 38 ações da B3: 34 mudam de posição no ranking | [📓](codigos/03_retornos_log/retornos-log.ipynb) [📄](codigos/03_retornos_log/retornos-log_nota_tecnica.pdf) |
+| 04 | [**Volatilidade**](codigos/04_volatilidade) | Mesma média de 8 % ao ano: por que uma perde dinheiro em **2,7 %** dos anos e a outra em **46,8 %**? | **3,9 %** contra **31,6 %** de vol ao ano; o Ibovespa tem **31,1 %** | RiskMetrics (1996) no Ibovespa: o melhor λ é 0,935, colado no 0,94 | [📓](codigos/04_volatilidade/volatilidade.ipynb) [📄](codigos/04_volatilidade/volatilidade_nota_tecnica.pdf) |
+| 05 | [**O índice de Sharpe**](codigos/05_sharpe) | O dobro do retorno por oito vezes o risco é bom negócio? | **0,36** contra **0,99**; o Ibovespa sobre o CDI desde 1995: **0,10**, com intervalo de −0,25 a 0,42 | Lo (2002): o erro do Sharpe no Ibovespa, em 38 ações e em 155 fundos da CVM | [📓](codigos/05_sharpe/sharpe.ipynb) [📄](codigos/05_sharpe/sharpe_nota_tecnica.pdf) |
+| 06 | [**Correlação**](codigos/06_correlacao) | Por que a mesma carteira meio a meio oscila 19,0 %, 14,1 % ou 10,0 %? | correlação +0,80: **19,0 %**; zero: **14,1 %**; −0,50: **10,0 %** | Forbes & Rigobon (2002) na crise de 2020: de 0,55 para 0,83, e sem contágio | [📓](codigos/06_correlacao/correlacao.ipynb) [📄](codigos/06_correlacao/correlacao_nota_tecnica.pdf) |
+
+Cada pasta tem o notebook executado (📓), a nota técnica em PDF (📄), os dados que o notebook lê e um README com o código da tela.
 
 ## ❓ Perguntas que sempre aparecem
 
 <details>
 <summary><b>Preciso saber programar?</b></summary>
 <br>
-Se você já mexeu numa planilha, consegue acompanhar. O código da tela tem de 11 a 14 linhas e cada uma aparece no
+Se você já mexeu numa planilha, consegue acompanhar. O código da tela tem de 12 a 16 linhas e cada uma aparece no
 vídeo com a conta que ela faz. Comece rodando, depois mude um número e veja o que acontece.
 </details>
 
@@ -87,7 +94,7 @@ resultado futuro, e isso vale em dobro para backtest.
 ## 📄 Licença e agradecimentos
 
 O código está sob a licença [MIT](LICENSE). Os dados nas pastas `dados*/` pertencem às respectivas fontes (Tesouro
-Nacional, Banco Central, FRED, Federal Reserve, Yahoo Finance) e seguem os termos de cada uma.
+Nacional, Banco Central, CVM, FRED, Federal Reserve, Yahoo Finance) e seguem os termos de cada uma.
 
 ---
 
